@@ -90,7 +90,7 @@ function draw() {
 }
 
 // function redBalloon() {
-//   var red = createSprite(0,50, 10, 10);
+//var red = createSprite(0,50, 10, 10);
 //   red.addImage(red_balloonImage);
 //   red.velocityX = 3;
 //   red.lifetime = 150;
@@ -105,13 +105,13 @@ function draw() {
 //   red.scale = 0.1;
 // }
 
-// function redBalloon() {
-//   var red = createSprite(0,Math.round(random(20, 370)), 10, 10);
-//   red.addImage(red_balloonImage);
-//   red.velocityX = 3;
-//   red.lifetime = 150;
-//   red.scale = 0.1;
-// }
+function redBalloon() {
+  var red = createSprite(0,Math.round(random(20, 370)), 10, 10);
+  red.addImage(red_balloonImage);
+  red.velocityX = 3;
+  red.lifetime = 150;
+  red.scale = 0.1;
+}
 
 // function redBalloon() {
 //   var red = createSprite(0, 10, Math.round(random(20, 370)) , 10);
